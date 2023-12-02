@@ -437,7 +437,6 @@ body.addEventListener('touchmove', function (event) {
         y_move = event.touches[0].screenY;
         dice.rotate(dice.angleY, dice.angleX);
         dice.drawDice();
-        console.log(dice.angleX);
     }
 })
 
@@ -482,7 +481,7 @@ dice.drawDice();
 const owner = 'HarshithPancheru';
 const repo = 'Canvas_Dice_Animation';
 const filePath = 'visitor_count.txt';
-const accessToken = 'YOUR_ACCESS_TOKEN';
+const accessToken = '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';
 
 // Function to fetch visitor count
 function getVisitorCount() {
